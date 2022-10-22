@@ -2,6 +2,7 @@ package homework5;
 
 public class NormalHomework5 {
     public static void main(String[] args) {
+
         Driver driver1 = new Driver();
         driver1.driverName = "Толик";
         driver1.driveTime = 20;
@@ -17,11 +18,11 @@ public class NormalHomework5 {
         car1.stop();
         car1.turnLeft();
         car1.turnRight();
-        //System.out.println("Автомобиль марки" + carName + "водитель" + driverName);
+
     }
 }
     class Driver{
-        String driverName;
+        public String driverName;
         int driveTime;
     }
     class Engine {
@@ -36,6 +37,7 @@ public class NormalHomework5 {
         void stop() {System.out.println("Останавливаемся");}
         void turnRight() {System.out.println("Поворот направо");}
         void turnLeft () {System.out.println("Поворот налево");}
+
         }
 
 

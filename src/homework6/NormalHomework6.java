@@ -15,13 +15,18 @@ public class NormalHomework6 {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int index;
+        boolean hasErrors = true;
         for (int i = 0; i < mass.length; i++) {
             if (n == mass[i]) {
                 index = i;
+                hasErrors = false;
                 System.out.println("Вы ввели число под индексом " + index);
             }
+            }if (hasErrors) {
+                System.out.println("Ошибка");
+
+        }
     }
-}
 }
 
 
