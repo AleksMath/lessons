@@ -14,9 +14,12 @@ public class Main {
         Car car1 = new Car();
         car1.carName = "ToyotaLandCruiser";
         car1.classAuto = "fourWeelDrive";
+        car1.driver = driver1;
+        car1.engine = engine1;
         car1.start();
         car1.stop();
         car1.turnLeft();
         car1.turnRight();
+        System.out.println(car1);
     }
 }

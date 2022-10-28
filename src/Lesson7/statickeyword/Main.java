@@ -1,14 +1,24 @@
 package Lesson7.statickeyword;
 
 public class Main {
-     int noStaticVariable;
-     static int staticVariable;
+    int noStaticVariable;
+    static int staticVariable;
+
     public static void main(String[] args) {
-        System.out.println(staticVariable);
+        Car merzedes = new Car("White");
+        System.out.println(merzedes);
 
-        System.out.println(Car.color);
+        Car bmv = new Car("blye");
+        System.out.println(bmv);
 
-        Car.info();
+        System.out.println();
+
+        //MathUtil mathUtil = new MathUtil();
+        int result = MathUtil.sum(2,3);
+        System.out.println("Result: " + result);
+
+        System.out.println();
 
     }
 }
+
