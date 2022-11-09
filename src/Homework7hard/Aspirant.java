@@ -1,6 +1,6 @@
 package Homework7hard;
 
-public class Aspirant {
+/*public class Aspirant {
     private String firstName;
     private String lastName;
     private String group;
@@ -18,5 +18,5 @@ public class Aspirant {
     public double getAverageMark() {
         return averageMark;
     }
-}
+}*/
 

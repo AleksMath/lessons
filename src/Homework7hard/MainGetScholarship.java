@@ -1,4 +1,6 @@
+/*
 //package Homework7hard;
+*/
 /*Создайте пример наследования, реализуйте класс Student и класс Aspirant.
 Аспирант отличается от студента наличием некой научной работы (имеет свойство scientificWork).
 Класс Student содержит переменные: String firstName, lastName, group. А также, double averageMark, содержащую среднюю оценку.
@@ -13,11 +15,15 @@
 - если средняя оценка студена больше или равно 4, но меньше 5, то сумма 1910 руб.;
 - иначе аспиранту не выплачивается стипендия.
 Создать массив типа Student, содержащий объекты класса Student и Aspirant.
-Вызвать метод getScholarship() для каждого элемента массива.*/
-//public class MainGetScholarship {
-  //  public static void main(String[] args) {
-  //      Student student = new Student("Aleksei", "Lapenkov", "Mechanic",4.0,false);
+Вызвать метод getScholarship() для каждого элемента массива.*//*
 
-      //  student.getScholarship();
-   // }
-//}
+
+*/
+/*import Homework7hard.Student;/public class MainGetScholarship {
+  public static void main(String[] args) {
+       Student student = new Student("Aleksei", "Lapenkov", "Mechanic",4.0,false);
+
+      student.getScholarship();
+    }
+}
+*/
